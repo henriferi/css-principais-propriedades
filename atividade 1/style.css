@@ -1,0 +1,74 @@
+
+body{
+    background-color: rgb(169, 228, 243);
+}
+
+#ingredientes{
+    display: inline-block;
+    width: 40%;
+    color: orangered;
+    font-family: 'Rampart One', cursive;
+    letter-spacing: 1.3em;
+    text-transform: uppercase;
+}
+#preparo{
+    width: 50%;
+    float: right;
+    font-family: 'Allison', cursive;
+    color: blueviolet;
+    letter-spacing: 1.3em;
+    text-transform: uppercase;
+}
+#ingredientes h1{
+    text-align: center;
+    color: gold;
+    background-color: black;
+    font-size: 30px;
+}
+#preparo h1{
+    color: gold;
+    background-color: black;
+    text-align: center;
+    font-size: 30px;
+}
+#preparo h2{
+    color: gold;
+    background-color: black;
+    font-size: 20px;
+    text-align: center;
+}
+.xicara{
+    text-decoration: line-through;
+}
+
+#imagens{
+    margin-left: 400px;
+    margin-right: 200px;
+    float: right;
+}
+img{
+    margin-right: -20px;
+    width: 150px; height: 150px;
+    border: solid;
+    border-color: black;
+    border-radius: 10%;
+}
+#img-ingrediente{
+   width: 250px; height: 250px;
+   margin-left: 60px;
+}
+
+#rodape{
+    background-color: black;
+    margin-top: 100%;
+    width: 20%;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    position: fixed;
+    bottom: 0;
+}
+span{
+    font-weight: bold;
+    color: gold;
+}
